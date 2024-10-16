@@ -1,0 +1,36 @@
+$navbar-background: white
+$border-test-color: #efefef
+
+.nav-container
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 2
+
+.navlink
+  width: 555px
+  list-style: none
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 8px
+  padding: 5px 0
+  margin: 5px auto
+  border-radius: 30px
+  border: 1px solid $border-test-color
+  background: transparent
+  backdrop-filter: blur(7px)
+
+  li
+    font-size: 13px
+    border-radius: 30px
+    padding: 5px 20px
+    transition: all 0.3s cubic-bezier(1, 0.5, 0.2, 1)
+    cursor: pointer
+
+  li:hover
+    background-color: $border-test-color
