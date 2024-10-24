@@ -11,5 +11,5 @@ import {NgOptimizedImage} from '@angular/common';
   styleUrl: './home.component.sass'
 })
 export class HomeComponent {
-  userPicture = 'src/assets/images/icons/Bun.svg'
+
 }
